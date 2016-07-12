@@ -101,7 +101,7 @@ class ProcessAction {
         MaterialsReq[] = {{"cotton_unrefined",1}};
         MaterialsGive[] = {{"cotton_refined",1}};
         Text = "STR_Process_Cotton";
-        //ScrollText = "Mix Cement";
+        //ScrollText = "Mix Cotton";
         NoLicenseCost = 350;
     };
 
@@ -109,7 +109,7 @@ class ProcessAction {
         MaterialsReq[] = {{"cocoabeans",1}};
         MaterialsGive[] = {{"chocolate",1}};
         Text = "STR_Process_Chocolate";
-        //ScrollText = "Mix Cement";
+        //ScrollText = "Mix Chocolate";
         NoLicenseCost = 350;
     };
 };
