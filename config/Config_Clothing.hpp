@@ -406,7 +406,7 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, { "", "", -1 } },
             { "V_BandollierB_cbr", "", 4500, { "", "", -1 } },
-            { "V_HarnessO_brn", "", 7500, { "", "", -1 } },
+            { "V_HarnessO_brn", "Suicide vest", 1500000, { "", "", -1 } },
             { "V_TacVest_khk", "", 7500, { "", "", -1 } },
             { "V_HarnessOGL_ghex_F", "", 7500, { "", "", -1 } },
             { "U_I_C_Soldier_Para_4_F", "", 7500, { "", "", -1 } },
