@@ -309,11 +309,7 @@ class LifeCfgVehicles {
         vItemSpace = 700;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 45000;
-        textures[] = {
-            { "Custom boat", "civ", {
-                "textures\CivV\Boat\customboat.jpg"
-            } }
-        };
+        textures[] = {};
     };
 	
 	class C_Boat_Civil_01_rescue_F {
@@ -385,9 +381,6 @@ class LifeCfgVehicles {
             } },
 			{ "Manga", "civ", {
                 "textures\CivV\offroad\manga.jpg"
-            } },
-			{ "Tribal", "civ", {
-                "textures\CivV\offroad\tribal.jpg"
             } },
             { "Fed", "fed", {
                 "#(ai,64,64,1)Fresnel(0.3,3)"
@@ -570,9 +563,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 			{ "Wolfenstein", "civ", {
                 "textures\CivV\SUV\Wolfenstein_LowTexture.jpg.jpg"
             } },
-            { "Zero", "civ", {
-				"textures\CivV\SUV\Zero_LowTexture.jpg"
-			} },
             { "Police", "cop", {
                 "textures\CopV\suv.jpg"
             } },
@@ -593,20 +583,11 @@ will modify the virtual space and the price of the vehicle, but other informatio
         licenses[] = { {"driver"}, {""}, {""}, {""} };
         price = 45000;
         textures[] = {
-            { "Graffiti", "civ", {
-                "textures\CivV\Jeep\graffiti.jpg"
-            } },
-			{ "Space", "civ", {
-                "textures\CivV\Jeep\space.jpg"
-            } },
 			{ "Zombie", "civ", {
                 "textures\CivV\Jeep\zombie.jpg"
             } },
 			{ "monster", "civ", {
                 "textures\CivV\Jeep\monster.jpg"
-            } },
-			{ "TanMed", "med", {
-                "textures\MedV\tanmed.jpg"
             } },
 			{ "Police", "cop", {
                 "textures\CopV\police.jpg"
@@ -671,10 +652,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {
             { "Police", "cop", {
                 "textures\CopV\hunter.jpg"
-            } },
-            { "Gray Wolf", "vip", {
-              "textures\CivV\Hunter\wolf_1.jpg",
-              "textures\CivV\Hunter\wolf_2.jpg"
             } }
        };
     };
