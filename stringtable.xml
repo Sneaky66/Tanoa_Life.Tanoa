@@ -9557,6 +9557,12 @@
             <Portuguese>Campo de Maçãs</Portuguese>
             <Polish>Sad jabłkowy</Polish>
         </Key>
+		<Key ID="STR_MAR_Cotton_Field">
+            <Original>Cotton Field</Original>
+        </Key>
+		<Key ID="STR_MAR_Cocoabeans_Field">
+            <Original>Cocoa Beans Field</Original>
+        </Key>
         <Key ID="STR_MAR_Peaches_Field">
             <Original>Peaches Field</Original>
             <Czech>broskve Field</Czech>
