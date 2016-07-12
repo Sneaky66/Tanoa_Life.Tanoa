@@ -99,10 +99,11 @@ class Life_Client_Core {
         class robPerson {};
         class robReceive {};
         class tazed {};
-		  class hasOrgan {};
-      class punchBalls {};
+		class hasOrgan {};
+		class punchBalls {};
   		class punchBallsAction {};
   		class pee {};
+  		class skyDive {};
     };
 
     class Config {
