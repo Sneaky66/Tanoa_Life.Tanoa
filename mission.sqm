@@ -8,7 +8,7 @@ class EditorData
 	toggles=521;
 	class ItemIDProvider
 	{
-		nextID=3155;
+		nextID=3170;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5778.2495,132.16756,10568.128};
-		dir[]={0.62589604,-0.72093588,0.29793414};
-		up[]={0.65099651,0.69293934,0.30987501};
-		aside[]={0.42984268,4.3056207e-007,-0.90301096};
+		pos[]={12481.827,92.613609,14237.274};
+		dir[]={0.735811,-0.6764462,-0.031858325};
+		up[]={0.67581743,0.73648715,-0.029260771};
+		aside[]={-0.043256961,-7.622657e-008,-0.99906862};
 	};
 };
 binarizationWanted=0;
@@ -305,6 +305,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -319,24 +337,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -395,7 +395,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1265;
+		items=1272;
 		class Item0
 		{
 			dataType="Marker";
@@ -1410,22 +1410,22 @@ class Mission
 			colorName="ColorBlue";
 			angle=6.5877237;
 			id=124;
-			atlOffset=0.26376152;
 		};
 		class Item94
 		{
 			dataType="Marker";
-			position[]={11225.311,99.485069,7926.3813};
+			position[]={7964.1865,13.309441,9372.666};
 			name="cocaine_1";
 			text="@STR_MAR_Cocaine_Field";
 			type="mil_dot";
 			colorName="Color1_FD_F";
 			id=125;
+			atlOffset=-9.5367432e-007;
 		};
 		class Item95
 		{
 			dataType="Marker";
-			position[]={11225.1,-1071.0291,7925.0894};
+			position[]={7964.2637,13.265625,9372.7217};
 			name="coke_area";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -1433,7 +1433,7 @@ class Mission
 			a=30;
 			b=30;
 			id=126;
-			atlOffset=-1170.2449;
+			atlOffset=-0.03559494;
 		};
 		class Item96
 		{
@@ -1460,13 +1460,13 @@ class Mission
 		class Item98
 		{
 			dataType="Marker";
-			position[]={15089.178,-91.147888,11920.823};
+			position[]={6397.5205,42.960327,8907.8828};
 			name="diamond_trader";
 			text="@STR_MAR_Diamond_Trader";
 			type="b_unknown";
 			colorName="ColorOrange";
 			id=129;
-			atlOffset=-45.90678;
+			atlOffset=-12.889244;
 		};
 		class Item99
 		{
@@ -2077,7 +2077,7 @@ class Mission
 		class Item154
 		{
 			dataType="Marker";
-			position[]={10370.84,373.67697,12110.65};
+			position[]={13112.278,573.26715,9120.4326};
 			name="hunting_zone";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -2085,17 +2085,18 @@ class Mission
 			a=1000;
 			b=1000;
 			id=215;
+			atlOffset=422.26324;
 		};
 		class Item155
 		{
 			dataType="Marker";
-			position[]={10217.863,48.18972,12143.58};
+			position[]={13113.146,149.40198,9113.916};
 			name="hunting_marker";
 			text="@STR_MAR_Hunting_Grounds";
 			type="mil_join";
 			colorName="ColorRed";
 			id=216;
-			atlOffset=-362.27689;
+			atlOffset=-0.26641846;
 		};
 		class Item156
 		{
@@ -3668,6 +3669,7 @@ class Mission
 				angles[]={0,3.2018659,6.2826972};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -3675,7 +3677,6 @@ class Mission
 			};
 			id=280;
 			type="Land_CashDesk_F";
-			atlOffset=0.57331657;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -14046,6 +14047,7 @@ class Mission
 				angles[]={0,3.4445534,6.282495};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -14053,7 +14055,6 @@ class Mission
 			};
 			id=534;
 			type="Land_CashDesk_F";
-			atlOffset=0.25455093;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23306,7 +23307,7 @@ class Mission
 			side="Civilian";
 			class Entities
 			{
-				items=119;
+				items=122;
 				class Item0
 				{
 					dataType="Object";
@@ -25649,6 +25650,7 @@ class Mission
 						angles[]={0,4.9540167,6.282495};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -25656,7 +25658,6 @@ class Mission
 					};
 					id=987;
 					type="C_man_1";
-					atlOffset=0.27027702;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25779,7 +25780,7 @@ class Mission
 					};
 					id=990;
 					type="C_man_p_fugitive_F_asia";
-					atlOffset=0.57365465;
+					atlOffset=0.5736537;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -26606,6 +26607,7 @@ class Mission
 						angles[]={0,0.37698126,6.282495};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -26614,7 +26616,7 @@ class Mission
 					};
 					id=1006;
 					type="C_man_1";
-					atlOffset=0.25455236;
+					atlOffset=0.0016241074;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29058,6 +29060,7 @@ class Mission
 						angles[]={0,0.18690915,6.282495};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
@@ -29065,7 +29068,7 @@ class Mission
 					};
 					id=939;
 					type="C_man_1";
-					atlOffset=0.30471802;
+					atlOffset=0.11119366;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30204,7 +30207,7 @@ class Mission
 					};
 					id=3044;
 					type="C_Nikos_aged";
-					atlOffset=0.061563492;
+					atlOffset=0.013496399;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -31064,6 +31067,207 @@ class Mission
 							};
 						};
 						nAttributes=3;
+					};
+				};
+				class Item119
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8411.25,19.471439,10260.88};
+						angles[]={0,3.7884116,0};
+					};
+					side="Civilian";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Cotton"",life_fnc_processAction,""cotton"",0,false,false,"""",' life_inv_cotton_unrefined > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cotton"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cotton"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cotton"",0,false,false,"""",' !license_civ_cotton && playerSide isEqualTo civilian '];";
+					};
+					id=3160;
+					type="C_man_1";
+					atlOffset=0.040000916;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item120
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8419.2695,19.471439,10255.796};
+						angles[]={0,3.7884116,0};
+					};
+					side="Civilian";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Chocolate"",life_fnc_processAction,""cocoabeans"",0,false,false,"""",' life_inv_cocoabeans > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""chocolate"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""chocolate"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cotton"",0,false,false,"""",'  !license_civ_chocolate && playerSide isEqualTo civilian '];";
+					};
+					id=3164;
+					type="C_man_1";
+					atlOffset=0.040000916;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="enableSimulation";
+							expression="if !(is3DEN) then {_this enablesimulationglobal _value;};";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=3;
+					};
+				};
+				class Item121
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={12500.745,63.072346,14236.241};
+						angles[]={0,4.841002,0};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this enableSimulation false;  this allowDamage false; this addAction[""Sky Dive"",life_fnc_skyDive];";
+					};
+					id=3169;
+					type="C_Man_casual_1_F";
+					atlOffset=-3.4332275e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=1;
 					};
 				};
 			};
@@ -33355,7 +33559,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=272.67981;
 			id=1435;
-			atlOffset=0.29624653;
+			atlOffset=0.098413467;
 		};
 		class Item720
 		{
@@ -33374,7 +33578,6 @@ class Mission
 			};
 			id=1436;
 			type="Land_Atm_02_F";
-			atlOffset=0.20450211;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -33958,6 +34161,7 @@ class Mission
 				angles[]={0,1.9106126,6.282495};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
@@ -33965,7 +34169,7 @@ class Mission
 			};
 			id=1976;
 			type="Land_CashDesk_F";
-			atlOffset=0.2690897;
+			atlOffset=0.11119413;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -42263,7 +42467,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5800.4019,45.16898,10739.677};
-			angle=1.5346504;
+			angle=1.5346503;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName";
@@ -42348,7 +42552,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5874.0288,57.487,10602.411};
-			angle=6.244945;
+			angle=6.2449446;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName3";
@@ -42399,7 +42603,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5688.2139,5.7839999,10566.578};
-			angle=3.2438514;
+			angle=3.2438512;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName5";
@@ -42416,7 +42620,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5675.7109,55.921001,10573.802};
-			angle=3.176569;
+			angle=3.1765685;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName5";
@@ -42433,7 +42637,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5787.793,9.0299997,10375.863};
-			angle=3.3369124;
+			angle=3.3369122;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName6";
@@ -42467,7 +42671,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5746.2261,6.827589,10444.219};
-			angle=5.1672215;
+			angle=5.1672206;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName7";
@@ -42484,7 +42688,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5761.2031,65.490829,10444.625};
-			angle=2.0446706;
+			angle=2.0446703;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName7";
@@ -42518,7 +42722,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={5605.521,45.112,10117.541};
-			angle=1.2181176;
+			angle=1.2181174;
 			class Attributes
 			{
 				text="AccessPoint_UniqueName8";
@@ -42530,6 +42734,86 @@ class Mission
 			id=3152;
 			type="EmptyDetectorArea10x10";
 			atlOffset=1.0189972;
+		};
+		class Item1265
+		{
+			dataType="Marker";
+			position[]={9568.1729,-2.1397042e-016,13284.877};
+			name="cocoabeans_1";
+			text="@STR_MAR_Cocoabeans_Field";
+			type="loc_Tree";
+			colorName="ColorBrown";
+			id=3156;
+			atlOffset=-27.302881;
+		};
+		class Item1266
+		{
+			dataType="Marker";
+			position[]={4107.7192,-3.563835e-016,8468.7852};
+			name="cocoabeans_2";
+			text="@STR_MAR_Cocoabeans_Field";
+			type="loc_Tree";
+			colorName="ColorBrown";
+			id=3157;
+			atlOffset=-3.9531717;
+		};
+		class Item1267
+		{
+			dataType="Marker";
+			position[]={9076.46,4.763308,6807.9067};
+			name="cocoabeans_3";
+			text="@STR_MAR_Cocoabeans_Field";
+			type="loc_Tree";
+			colorName="ColorBrown";
+			id=3158;
+		};
+		class Item1268
+		{
+			dataType="Marker";
+			position[]={8411.252,19.43,10260.812};
+			name="dp_1_15_2";
+			text="Cotton Processing";
+			type="mil_box";
+			colorName="ColorWhite";
+			angle=270.68698;
+			id=3161;
+		};
+		class Item1269
+		{
+			dataType="Marker";
+			position[]={12364.744,-17.539974,8251.0283};
+			name="cotton_1";
+			text="@STR_MAR_Cotton_Field";
+			type="loc_Tree";
+			colorName="ColorWhite";
+			id=3162;
+			atlOffset=-62.785412;
+		};
+		class Item1270
+		{
+			dataType="Marker";
+			position[]={8419.2314,19.43,10255.755};
+			name="dp_1_15_3";
+			text="Chocolate Processing";
+			type="mil_box";
+			colorName="ColorBrown";
+			angle=270.68698;
+			id=3165;
+		};
+		class Item1271
+		{
+			dataType="Marker";
+			position[]={12501.443,-346.51001,14236.078};
+			name="skydive";
+			text=" Sky Dive";
+			type="mil_join";
+			colorName="ColorCIV";
+			alpha=0.7457512;
+			a=0.69999999;
+			b=0.69999999;
+			angle=71.027763;
+			id=3166;
+			atlOffset=-409.61328;
 		};
 	};
 };
