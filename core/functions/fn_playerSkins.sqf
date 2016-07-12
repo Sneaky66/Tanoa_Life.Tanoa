@@ -45,8 +45,7 @@ switch (playerSide) do {
             };
             player setObjectTextureGlobal [0, _skinName];
         };
-		if (backpack player isEqualTo "B_Kitbag_cbr") then
-		{
+		if (backpack player isEqualTo "B_Kitbag_cbr") then {
 			backpackContainer player setObjectTextureGlobal [0, "textures\CopC\kitbag.jpg"];
 		};
     };
@@ -55,8 +54,7 @@ switch (playerSide) do {
         if (uniform player isEqualTo "U_B_HeliPilotCoveralls") then {
             player setObjectTextureGlobal [0, "textures\MedC\medic.jpg"];
         };
-		if (backpack player isEqualTo "B_Carryall_cbr") then
-		{
+		if (backpack player isEqualTo "B_Carryall_cbr") then {
 			backpackContainer player setObjectTextureGlobal [0, "textures\MedC\CarryAll.jpg"];
 		};
     };
