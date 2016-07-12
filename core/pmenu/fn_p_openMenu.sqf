@@ -12,18 +12,15 @@ disableSerialization;
 
 switch (playerSide) do {
     case west: {
-        //ctrlShow[2011,false];
-       // ctrlShow[1290,false];
-       // ctrlShow[2038,false];
-       // ctrlShow[1221,false];
-       // ctrlShow[1209,false];
-       // ctrlShow[1203,false];
        ctrlShow[11290,false];
        ctrlShow[21038,false];
+       ctrlShow[666,false];//Crafting
+       ctrlShow[1209,false];//Gang
     };
 
     case civilian: {
-	
+		ctrlShow[1210,false];//Wanted Menu
+		ctrlShow[2008,false];//Wanted Boutton
     };
 
     case independent: {
