@@ -104,7 +104,7 @@ class playerHUD {
 	class RscPicture_HUDWatermark: RscPicture
 	{
 		idc = 1210;
-		text = "textures\custom\watermark.paa";
+		text = "images\watermark.paa";
 		x = 0.00499997 * safezoneW + safezoneX;
 		y = 0.94 * safezoneH + safezoneY;
 		w = 0.0876563 * safezoneW;
