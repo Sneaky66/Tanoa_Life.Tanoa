@@ -37,12 +37,14 @@ if (_veh isEqualTo "B_Heli_Transport_01_F") then {
 if (_veh isEqualTo "O_T_VTOL_02_infantry_F") then {
     _vehicle removeMagazinesTurret ["38Rnd_80mm_rockets",[0]];
     _vehicle removeMagazinesTurret ["250Rnd_30mm_APDS_shells_Tracer_Green",[1]];
-    _vehicle removeMagazinesTurret ["250Rnd_30mm_APDS_shells_Tracer_Green",[2]];
+    _vehicle removeMagazinesTurret ["250Rnd_30mm_APDS_shells",[2]];
+	_vehicle removeMagazinesTurret ["250Rnd_30mm_HE_shells_Tracer_Green",[1]];
+    _vehicle removeMagazinesTurret ["250Rnd_30mm_HE_shells_Tracer_Green",[2]];
     _vehicle removeMagazinesTurret ["8Rnd_LG_scalpel",[0]];
+	_vehicle setVehicleAmmo 0;
 };
 
 if (_veh isEqualTo "B_T_VTOL_01_armed_F") then {
-	_vehicle setVehicleAmmo 0;
     _vehicle removeMagazinesTurret ["100Rnd_105mm_HEAT_MP",[0]];
     _vehicle removeMagazinesTurret ["4000Rnd_20mm_shells_Tracer_Red",[0]];
     _vehicle removeMagazinesTurret ["240Rnd_40mm_GPR_Tracer_Red_shells",[0]];
