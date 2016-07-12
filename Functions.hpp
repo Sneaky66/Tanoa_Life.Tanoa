@@ -255,6 +255,7 @@ class Life_Client_Core {
 		class autoMessages {}; //Auto VIP Message
 		class autoSave {}; //Auto Saves Player Info
 		class hudUpdateWanted {}; //Bounty Hud
+		class jihad {}; //Suicide vest
     };
 
     class Gangs {
