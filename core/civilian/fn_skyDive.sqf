@@ -22,7 +22,7 @@ sleep 1;
 
 removeBackpack player;
 player addBackpack "B_Parachute"; 
-player setPos [getPos player select 0, getPos player select 1, 700];
+player setPos [getPos player select 0, getPos player select 1, 3000];
 sleep 2;
 
 titlecut [" ","BLACK IN",3]; 
