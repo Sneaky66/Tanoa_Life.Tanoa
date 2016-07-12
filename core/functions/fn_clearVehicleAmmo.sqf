@@ -42,6 +42,7 @@ if (_veh isEqualTo "O_T_VTOL_02_infantry_F") then {
 };
 
 if (_veh isEqualTo "B_T_VTOL_01_armed_F") then {
+	_vehicle setVehicleAmmo 0;
     _vehicle removeMagazinesTurret ["100Rnd_105mm_HEAT_MP",[0]];
     _vehicle removeMagazinesTurret ["4000Rnd_20mm_shells_Tracer_Red",[0]];
     _vehicle removeMagazinesTurret ["240Rnd_40mm_GPR_Tracer_Red_shells",[0]];
