@@ -219,19 +219,18 @@ switch (_code) do {
             };
         };
     };
-
-    //O Key
-    case 24: {
-        if (_shift) then {
-            if (soundVolume != 1) then {
-                1 fadeSound 1;
-                systemChat localize "STR_MISC_soundnormal";
-            } else {
-                1 fadeSound 0.1;
-                systemChat localize "STR_MISC_soundfade";
-            };
-        };
-    };
+	
+	//O Key
+	case 24: {
+		if (_shift) then {
+		switch (player getVariable["Earplugs",0]) do {
+		case 0: {hint composeText [ image "icons\sound.paa"," 90% Lower Sound"]; 1 fadeSound 0.1; player setVariable ["Earplugs", 10]; };
+		case 10: {hint composeText [ image "icons\sound.paa"," 60% Lower Sound"]; 1 fadeSound 0.4; player setVariable ["Earplugs", 40]; };
+		case 40: {hint composeText [ image "icons\sound.paa"," 30% Lower Sound"]; 1 fadeSound 0.7; player setVariable ["Earplugs", 70]; };
+		case 70: {hint composeText [ image "icons\sound_new.paa","Sound Normal"]; 1 fadeSound 1; player setVariable ["Earplugs", 0]; };
+			};
+		};
+	};
 
     //P Key 
     case 25: {
