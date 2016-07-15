@@ -182,7 +182,15 @@ class Life_Client_Core {
         class retrievePrices {};
         class updateEconomy {};
         class updatePrice {};
-    };
+  };
+
+  class Paintball
+  {
+    file = "core\paintball";
+    class pb_response {};
+	class ryn_message {};
+  };
+  
 
 	class vAH //Action House
 	{
