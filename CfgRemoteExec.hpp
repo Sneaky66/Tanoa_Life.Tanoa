@@ -118,6 +118,9 @@ class CfgRemoteExec {
 		F(TON_fnc_generateairdrop,SERVER)
 		F(life_fnc_getBounty,SERVER)
 		F(life_fnc_hasorgan,SERVER)
+		F(life_fnc_pb_response,SERVER)
+		F(TON_fnc_game,SERVER)
+		F(TON_fnc_paintball,SERVER)
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
