@@ -65,6 +65,7 @@ class Life_Client_Core {
 		class robShops {}; // Rob Gas Stastions
 		class ziptieAction {};//Civ Restrain
 		class takeOrgans {};//Steal organs
+		class vestLights {};//Police Vest Lights
     };
 
     class Admin {
@@ -145,6 +146,7 @@ class Life_Client_Core {
         class wantedGrab {};
 		class copOpener {}; // Should Open Gates
 		class teargas {}; // Cops Teargas
+		class copEnter {};
     };
 
     class Dialog_Controls {
@@ -183,13 +185,20 @@ class Life_Client_Core {
         class updateEconomy {};
         class updatePrice {};
   };
+  
+	class Ausweis 
+	{
+		file = "core\ID";
+		class Lizenzsehen {}; 
+		class Lizenzzeigen {};
+	 };
 
-  class Paintball
-  {
-    file = "core\paintball";
-    class pb_response {};
-	class ryn_message {};
-  };
+	 class Paintball
+	 {
+		file = "core\paintball";
+		class pb_response {};
+		class ryn_message {};
+	  };
   
 
 	class vAH //Action House
