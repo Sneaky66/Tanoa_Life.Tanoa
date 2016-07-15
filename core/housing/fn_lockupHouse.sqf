@@ -23,4 +23,5 @@ for "_i" from 1 to _numberOfDoors do {
 };
 
 _house setVariable ["locked",true,true];
+_house setVariable ["alarme",true,true];//House Alarm
 titleText[localize "STR_House_LockedUp","PLAIN"];
