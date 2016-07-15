@@ -4687,6 +4687,18 @@
             <Portuguese>Jogador a ser multado é nulo</Portuguese>
             <Polish>Osoba do ukarania mandatem to "nil"</Polish>
         </Key>
+		<Key ID="STR_pAct_DriverSeat">
+			<Original>Auf den Fahrersitz</Original>
+		 </Key>
+		 <Key ID="STR_pAct_PassengerSeat">
+			<Original>Auf den Passagiersitz</Original>
+		 </Key>
+		 <Key ID="STR_pAct_GunnerSeat">
+			<Original>Gunner Seat</Original>
+		 </Key>
+		 <Key ID="STR_pAct_GoOut">
+			<Original>Aus dem Fahrzeug austeigen</Original>
+		 </Key>
         <Key ID="STR_Cop_TicketExist">
             <Original>Person to ticket doesn't exist.</Original>
             <Czech>Osoba, která má letenku neexistuje.</Czech>
