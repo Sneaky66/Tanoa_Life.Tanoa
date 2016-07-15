@@ -127,11 +127,11 @@ if (!(_curTarget in life_vehicles) || isNil {_curTarget getVariable "house_owner
         _Btn3 ctrlShow true;
 
         if (_curTarget getVariable ["alarme",true]) then { // Código adicionado
-        _Btn4 ctrlSetText "Desligar Alarme";
+        _Btn4 ctrlSetText "Disable Alarm";
         _Btn4 buttonSetAction "life_pInact_curTarget setVariable ['alarme',false,true]; closeDialog 0;";
         _Btn4 ctrlshow true;
         } else {
-        _Btn4 ctrlSetText "Ligar Alarme";
+        _Btn4 ctrlSetText "Enable Alarm";
         _Btn4 buttonSetAction "life_pInact_curTarget setVariable ['alarme',true,true]; closeDialog 0;";
         _Btn4 ctrlshow true;
         };
