@@ -208,7 +208,15 @@ class LifeCfgVehicles {
         vItemSpace = 45;
         licenses[] = { {"boat"}, {""}, {""}, {""} };
         price = 3000;
-        textures[] = { };
+        textures[] = {
+			{ "Blanc", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_CO.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_CO.paa"} },
+            { "Noir", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Black_CO.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Black_CO.paa"} },
+            { "Bleue", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Blue_co.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Blue_co.paa"} },
+            { "Gris", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Grey_co.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Grey_co.paa"} },
+            { "Citron vert", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Lime_co.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Lime_co.paa"} },
+            { "Rouge", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Red_CO.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_CO.paa"} },
+            { "Jaune", "civ", {"\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_Yellow_CO.paa","\A3\Boat_F_Exp\Scooter_Transport_01\Data\Scooter_Transport_01_VP_Yellow_CO.paa"} }
+		};
     };
 	
 	class I_C_Boat_Transport_02_F {
@@ -591,6 +599,54 @@ will modify the virtual space and the price of the vehicle, but other informatio
             } },
 			{ "Police", "cop", {
                 "textures\CopV\police.jpg"
+            } },
+			{ "Noir", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_black_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_black_co.paa"
+            } },
+            { "Bleu", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_blue_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_blue_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_blue_co.paa"
+            } },
+            { "Vert", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_green_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_green_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_green_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_green_co.paa"
+            } },
+            { "Orange", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_orange_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_orange_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_orange_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_orange_co.paa"
+            } },
+            { "Rouge", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_red_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_red_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_red_co.paa"
+            } },
+            { "Blanc", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_white_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_white_co.paa"
+            } },
+            { "Marron", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_brown_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_brown_co.paa"
+            } },
+            { "Olive", "civ", {
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa",
+            "\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"
             } }
         };
     };
@@ -831,6 +887,31 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vFuelSpace = 50000;
         licenses[] = { {"pilot"}, {"cAir"}, {"mAir"}, {""} };
         price = 500000;
-        textures[] = {};
+        textures[] = {
+            { "Course", "civ", {
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Racer_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Racer_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+            { "Ligne Rouge", "civ", {
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_RedLine_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_RedLine_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+            { "Vague Bleue", "civ", {
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Wave_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Wave_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } },
+            { "Tribal", "civ", {
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_01_Tribal_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_ext_02_Tribal_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_01_co.paa",
+                "A3\Air_F_Exp\Plane_Civil_01\Data\btt_int_02_co.paa"
+            } }
+		};
     };
 };
