@@ -4688,16 +4688,16 @@
             <Polish>Osoba do ukarania mandatem to "nil"</Polish>
         </Key>
 		<Key ID="STR_pAct_DriverSeat">
-			<Original>Auf den Fahrersitz</Original>
+			<Original>Driver's seat</Original>
 		 </Key>
 		 <Key ID="STR_pAct_PassengerSeat">
-			<Original>Auf den Passagiersitz</Original>
+			<Original>Passenger seat</Original>
 		 </Key>
 		 <Key ID="STR_pAct_GunnerSeat">
 			<Original>Gunner Seat</Original>
 		 </Key>
 		 <Key ID="STR_pAct_GoOut">
-			<Original>Aus dem Fahrzeug austeigen</Original>
+			<Original>Get Out</Original>
 		 </Key>
         <Key ID="STR_Cop_TicketExist">
             <Original>Person to ticket doesn't exist.</Original>
