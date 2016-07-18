@@ -71,6 +71,7 @@ class CfgRemoteExec {
 		F(life_fnc_vAH_reciever,CLIENT)
 		F(life_fnc_punchBalls,CLIENT)
 		F(life_fnc_Lizenzsehen,CLIENT)
+		F(life_fnc_CarAlarmSound,CLIENT)
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)

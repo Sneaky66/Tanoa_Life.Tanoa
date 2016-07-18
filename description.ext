@@ -91,7 +91,7 @@ class CfgSounds {
 		titles[] = {};
 	};
 
-  class wasted
+	class wasted
 	{
 		name = "wasted";
 		sound[] = {"\sounds\wasted.ogg", 1.0, 1};
@@ -104,6 +104,13 @@ class CfgSounds {
         sound[] = {"\sounds\satire.ogg", 0.25, 1};
         titles[] = {};
     };
+	
+	class caralarm
+	{
+		name = "caralarm";
+		sound[] = {"\sounds\car_alarm.ogg", 1.0, 1};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing {

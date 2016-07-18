@@ -274,6 +274,7 @@ class Life_Client_Core {
 		class autoSave {}; //Auto Saves Player Info
 		class hudUpdateWanted {}; //Bounty Hud
 		class jihad {}; //Suicide vest
+		class CarAlarmSound {};//Car Alarm
     };
 
     class Gangs {
