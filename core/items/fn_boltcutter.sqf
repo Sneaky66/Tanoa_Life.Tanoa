@@ -31,7 +31,7 @@ if ((_building getVariable [format["bis_disabled_Door_%1",_door],0]) isEqualTo 0
 if ((nearestObject [[7362.12,7575.83,0.00266576],"Land_Dome_Big_F"]) == _building || (nearestObject [[7362.12,7575.83,0.00266576],"Land_Research_house_V1_F"]) == _building) then {
     [[1,2],"STR_ISTR_Bolt_AlertFed",true,[]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 } else {
-	[] call life_fnc_alarme;
+	[] spawn life_fnc_alarme;
     [0,"STR_ISTR_Bolt_AlertHouse",true,[profileName]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
 };
 
