@@ -101,7 +101,8 @@ class WeaponShops {
             { "srifle_DMR_06_olive_F", "", 40000, 7500 },
             { "arifle_SPAR_03_blk_F", "", 40000, 7500 },
             { "arifle_SPAR_03_khk_F", "", 40000, 7500 },
-            { "arifle_SPAR_03_snd_F", "", 40000, 7500 }
+            { "arifle_SPAR_03_snd_F", "", 40000, 7500 },
+            { "launch_RPG7_F", "", 1000000, 500000 }
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300 },
@@ -114,7 +115,8 @@ class WeaponShops {
             { "10Rnd_93x64_DMR_05_Mag", "", 125 },
             { "10Rnd_338_Mag", "", 125 },
             { "20Rnd_762x51_Mag", "", 125 },
-            { "20Rnd_762x51_Mag", "", 125 }
+            { "20Rnd_762x51_Mag", "", 125 },
+            { "RPG7_F", "", 50000 }
         };
         accs[] = {
             { "optic_ACO_grn_smg", "", 2500 },
