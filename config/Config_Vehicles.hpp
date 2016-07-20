@@ -59,10 +59,10 @@ class CarShops {
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
-			{ "B_T_VTOL_01_infantry_F", { "", "", -1 } },
 			{ "C_Plane_Civil_01_F", { "", "", -1 } },
-			{ "O_T_VTOL_02_infantry_F", { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+			{ "O_T_VTOL_02_infantry_F", { "", "", -1 } },
+			{ "B_T_VTOL_01_infantry_F", { "", "", -1 } }
         };
     };
 
@@ -86,7 +86,8 @@ class CarShops {
             { "O_MRAP_02_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
             { "B_G_Offroad_01_armed_F", { "", "", -1 } },
-            { "O_T_VTOL_02_infantry_F", { "", "", -1 } }
+            { "B_T_LSV_01_armed_F", { "", "", -1 } },
+            { "O_T_LSV_02_armed_F", { "", "", -1 } }
         };
     };
 
@@ -307,6 +308,20 @@ class LifeCfgVehicles {
     };
 
     class B_G_Offroad_01_armed_F {
+        vItemSpace = 65;
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        price = 750000;
+        textures[] = { };
+    };
+	
+	class B_T_LSV_01_armed_F {
+        vItemSpace = 65;
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
+        price = 750000;
+        textures[] = { };
+    };
+	
+	class O_T_LSV_02_armed_F {
         vItemSpace = 65;
         licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = 750000;
@@ -735,7 +750,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
     };
 	
 	class O_T_VTOL_02_infantry_F {
-        vItemSpace = 300;
+        vItemSpace = 1000;
         licenses[] = { {""}, {""}, {""}, {""} };
         price = 300000;
         textures[] = {};

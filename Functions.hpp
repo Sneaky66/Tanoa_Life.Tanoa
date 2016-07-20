@@ -275,6 +275,7 @@ class Life_Client_Core {
 		class hudUpdateWanted {}; //Bounty Hud
 		class jihad {}; //Suicide vest
 		class CarAlarmSound {};//Car Alarm
+		class speaking {};
     };
 
     class Gangs {

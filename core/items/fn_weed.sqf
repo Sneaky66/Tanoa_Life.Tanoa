@@ -1,11 +1,9 @@
 /*
 	Author:LDG Dev Team
 */
+private["_PS","_OBJ"];
 
-//Close inventory
 closeDialog 0;
-
-//Little hint then wait a litle before starting drugs effects
 hint "Winners don't use drugs !";
 sleep 3;
 
@@ -22,12 +20,12 @@ if (vehicle player != player) then
     {
         _smoke attachTo [player, [0,-0.1,1.5]];
     };
-
+    
 //Let's go for 45secs of effetcs
 for "_i" from 0 to 44 do
 {
     "chromAberration" ppEffectAdjust [random 0.25,random 0.25,true];
-    "chromAberration" ppEffectCommit 1;
+    "chromAberration" ppEffectCommit 1;   
     "radialBlur" ppEffectAdjust  [random 0.02,random 0.02,0.15,0.15];
     "radialBlur" ppEffectCommit 1;
     addcamShake[random 3, 1, random 3];
