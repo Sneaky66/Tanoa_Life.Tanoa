@@ -25,7 +25,7 @@ if (_curTarget getVariable "NPC") exitWith {hint localize "STR_NPC_Protected"};
 
 _title = format[localize "STR_ISTR_Lock_Process",if (!_isVehicle) then {"Handcuffs"} else {getText(configFile >> "CfgVehicles" >> (typeOf _curTarget) >> "displayName")}];
 life_action_inUse = true; //Lock out other actions
-[_curTarget] remoteExec ["life_fnc_CarAlarmSound",1];
+[[_curTarget],"life_fnc_CarAlarmSound",nil,true] spawn life_fnc_MP;
 
 //Setup the progress bar
 disableSerialization;
@@ -84,6 +84,7 @@ if (!_isVehicle) then {
     _dice = random(100);
     if (_dice < 30) then {
         titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
+		//player say3D "caralarm";
         life_vehicles pushBack _curTarget;
 
         if (life_HC_isActive) then {
@@ -102,5 +103,6 @@ if (!_isVehicle) then {
 
         [0,"STR_ISTR_Lock_FailedNOTF",true,[profileName]] remoteExecCall ["life_fnc_broadcast",west];
         titleText[localize "STR_ISTR_Lock_Failed","PLAIN"];
+		//player say3D "caralarm";
     };
 };
