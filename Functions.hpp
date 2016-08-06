@@ -105,6 +105,7 @@ class Life_Client_Core {
   		class punchBallsAction {};
   		class pee {};
   		class skyDive {};
+  		class handleDowned {};
     };
 
     class Config {

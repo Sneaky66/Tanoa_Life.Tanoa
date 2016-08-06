@@ -43,20 +43,43 @@ if (!isNull _source) then {
                 _damage = 0;
             };
         };
+		//Rubber bullets
+		if(!isNull _source) then {
+		if(_source != _unit) then {
+		_curMag = currentMagazine _source;
+		if (_curMag in ["10Rnd_50BW_Mag_F"] && _projectile in ["B_50BW_Ball_F"]) then {
+		if((side _source == west && playerSide != west)) then {
+		private["_isVehicle","_isQuad"];	
+		_isVehicle = if(vehicle player != player) then {true} else {false};
+		_isQuad = if(_isVehicle) then {if(typeOf(vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
+		_damage = false;
+		if(_isVehicle || _isQuad) then {
+		player action ["Eject",vehicle player];
+		[_unit,_source] spawn life_fnc_handleDowned;
+		} else {
+		[_unit,_source] spawn life_fnc_handleDowned;
+			};
+		};
+		if(side _source == west && playerSide == west) then {
+		_damage = false;
+					};
+				};
+			};
+		};
     };
 };
-//VDM Report And ADD
-if ((isPlayer _source) && (vehicle _source != _source)) then {
-if(_part == "body" && (player getVariable["limit",true]) && (side _source == civilian)) then {
-player setVariable ["limit",false];
-[_source] spawn {
-_driver = _this select 0;
-[0,format["%1 just ran over %2!", name _driver, name player]] remoteExec ["life_fnc_broadcast",0];
-sleep(10);
-player setVariable ["limit",true];
-	};
-};				
-_damage = getDammage player;
+	//VDM Report And ADD
+	if ((isPlayer _source) && (vehicle _source != _source)) then {
+	if(_part == "body" && (player getVariable["limit",true]) && (side _source == civilian)) then {
+	player setVariable ["limit",false];
+	[_source] spawn {
+	_driver = _this select 0;
+	[0,format["%1 just ran over %2!", name _driver, name player]] remoteExec ["life_fnc_broadcast",0];
+	sleep(10);
+	player setVariable ["limit",true];
+		};
+	};				
+	_damage = getDammage player;
 };
 
 [] spawn life_fnc_hudUpdate;
