@@ -423,6 +423,15 @@ class Life_Client_Core {
         class weaponShopMenu {};
         class weaponShopSelection {};
     };
+	
+	class Pets
+	{
+		file = "core\vippets";
+		class petRegistry {};
+		class petSpawn {};
+		class petHandler {};
+		class petKennel {};
+	};
 
     class Vehicle {
         file = "core\vehicle";
