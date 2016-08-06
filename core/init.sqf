@@ -100,6 +100,7 @@ switch (playerSide) do {
 
 // Init automatically saving gear
 [] spawn life_fnc_autoSave;
+[] spawn life_fnc_speaking;
 
 player setVariable ["restrained",false,true];
 player setVariable ["Escorting",false,true];
