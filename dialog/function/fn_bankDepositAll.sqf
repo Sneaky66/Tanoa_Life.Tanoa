@@ -14,7 +14,7 @@ if(!([str(_value)] call life_fnc_isnumeric)) exitWith {hint localize "STR_ATM_no
 if(_value > life_cash) exitWith {hint localize "STR_ATM_NotEnoughCash"};
 
 life_cash = life_cash - _value;
-life_atmcash = life_atmcash + _value;
+life_atmbank = life_atmbank + _value;
 
 hint format[localize "STR_ATM_DepositMSG",[_value] call life_fnc_numberText];
 [] call life_fnc_atmMenu;
