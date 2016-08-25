@@ -277,6 +277,8 @@ class Life_Client_Core {
 		class jihad {}; //Suicide vest
 		class CarAlarmSound {};//Car Alarm
 		class speaking {};
+		class beingRaped {};
+		class rapeAction {};
     };
 
     class Gangs {
