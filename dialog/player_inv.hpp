@@ -438,6 +438,6 @@ class playerSettings {
            color2[] = {0,0,0,1};
            colorText[] = {1,1,1,1};
            colorDisabled[] = {0,0,0,0.4};
-      };
+      }; 
    };
 };
